@@ -18,6 +18,7 @@ https://docs.google.com/document/d/1w9YYn8WCq4GKGZzhZkr64RZ4e1I4o14hsXDYAUgKp1I/
 1. Find and remove the sample text
   "ACA class was so awesome today."
   "I just checked out that new restaurant, it was okay"
+
 2. Create three folders underneath the "src" folder titled:
   "LeftComponent"
   "MiddleComponent"
@@ -25,15 +26,26 @@ https://docs.google.com/document/d/1w9YYn8WCq4GKGZzhZkr64RZ4e1I4o14hsXDYAUgKp1I/
   And add "index.js" files to each of them. 
   Additionally, add <component-name>.css files to each folder and import them into the respective index files
   ex. leftComponent.css
+
 3. Import all three components into the "App.js" file and place them in between the `<div>` tags. Add a className
   of "app" to the `<div>` and flex/grid these components so you have three even columns
+
 4. In the LeftComponent folder "index.js" file, create a parent `<div className="left">` with two child divs
   `<div className="left-top">` and `<div className="left-bottom">`. Use the LeftComponent.css file to create 
-  two equal rows. Give the top row an orange border and the bottom row a red border. 
+  two equal rows. Give the top row an orange border and the bottom row a red border.
+
+
+*****YOU LEFT OFF ON STEP 5*****
+
 5. Do the same thing for MiddleComponent except make the row heights match up with the image in the link above.
   For example, 10 and 90%. Give these purple and blue borders.
+
+*****YOU LEFT OFF ON STEP 5*****
+
+
 6. Finally, do the same thing for RightComponent except make the rows match up with the image in the link above.
   For example, 60 and 40%. Give these yellow and pink borders.
+
 7. Now, create a NavComponent folder with an "index.js" file and a "navComponent.css" file inside. In the index file,
   render one div with a width of 100% and a height of 10vh. Add a black border. Import this component into the "App.js" and restructure 
   the components in that file so that this (NavComponent) sits on top. Adjust the heights of the other components as 

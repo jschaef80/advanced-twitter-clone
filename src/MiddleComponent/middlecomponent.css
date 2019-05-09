@@ -1,0 +1,12 @@
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-top{
+    border: 2px solid purple;
+}
+
+.middle-bottom{
+    border: 2px solid blue;
+}
