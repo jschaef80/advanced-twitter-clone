@@ -1,5 +1,22 @@
 .nav {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 10vh;
+    border: solid 2px black;
+}
+
+.left {
+    flex: 3;
+    border: solid 2px black;
+}
+
+.middle {
+    flex: 1;
+    border: solid 2px black;
+}
+
+.right {
+    flex: 3;
     border: solid 2px black;
 }
