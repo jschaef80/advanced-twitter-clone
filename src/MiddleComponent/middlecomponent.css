@@ -5,6 +5,7 @@
 }
 
 .middle-top{
+    text-align: center;
     border: 2px solid purple;
     height: 10vh;
 }
@@ -12,4 +13,8 @@
 .middle-bottom{
     border: 2px solid blue;
     height: 90vh;
+}
+
+input {
+    width: 40vw;
 }

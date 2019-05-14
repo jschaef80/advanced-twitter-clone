@@ -13,3 +13,7 @@
     border: 2px solid red;
     height: 50vh;
 }
+
+.left-bottom li{
+    list-style-type: none;
+}

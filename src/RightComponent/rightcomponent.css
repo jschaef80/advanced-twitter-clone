@@ -13,3 +13,8 @@
     border: 2px solid pink;
     height: 40vh;
 }
+
+.right-top li {
+    list-style-type: none;
+
+}

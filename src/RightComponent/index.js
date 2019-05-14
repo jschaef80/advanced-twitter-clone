@@ -6,8 +6,21 @@ export default class RightComponent extends React.Component{
         return(
             <div className="right">
 
-                <div className="right-top">I'm right-top</div>
-                <div className="right-bottom">I'm right-bottom</div>
+                <div className="right-top">
+                <h3>Who To Follow</h3>
+                <ul>
+                    <li><b>The Pope</b> @dapontiff</li>
+                    <li><button>Follow</button></li>
+                    <li><b>Ariana Grande</b> @therealarianagrande</li>
+                    <li><button>Follow</button></li>
+                    <li><b>Jimmy Carter</b> @jimmy-carti-b</li>
+                    <li><button>Follow</button></li>
+                </ul>
+                </div>
+                <div className="right-bottom">
+                <h3>Live Video</h3>
+                <iframe width="360" height="175" src="https://www.youtube.com/embed/hHW1oY26kxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
             </div>
         )

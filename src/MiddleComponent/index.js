@@ -6,7 +6,10 @@ export default class MiddleComponent extends React.Component{
         return(
             <div className="middle">
 
-                <div className="middle-top">I'm middle-top</div>
+                <div className="middle-top">
+                <input type="text" placeholder="What's Happening?"></input>
+                </div>
+
                 <div className="middle-bottom">I'm middle-bottom</div>
 
             </div>
