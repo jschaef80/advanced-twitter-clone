@@ -35,12 +35,11 @@ https://docs.google.com/document/d/1w9YYn8WCq4GKGZzhZkr64RZ4e1I4o14hsXDYAUgKp1I/
   two equal rows. Give the top row an orange border and the bottom row a red border.
 
 
-*****YOU LEFT OFF ON STEP 5*****
 
 5. Do the same thing for MiddleComponent except make the row heights match up with the image in the link above.
   For example, 10 and 90%. Give these purple and blue borders.
 
-*****YOU LEFT OFF ON STEP 5*****
+
 
 
 6. Finally, do the same thing for RightComponent except make the rows match up with the image in the link above.

@@ -1,12 +1,15 @@
 .left{
     display: flex;
     flex-direction: column;
+    flex: 2.5;
 }
 
 .left-top{
     border: 2px solid orange;
+    height: 50vh;
 }
 
 .left-bottom{
     border: 2px solid red;
+    height: 50vh;
 }

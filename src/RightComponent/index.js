@@ -4,7 +4,12 @@ import './rightcomponent.css';
 export default class RightComponent extends React.Component{
     render(){
         return(
-            <p>I'm the right component!</p>
+            <div className="right">
+
+                <div className="right-top">I'm right-top</div>
+                <div className="right-bottom">I'm right-bottom</div>
+
+            </div>
         )
     }
 }
